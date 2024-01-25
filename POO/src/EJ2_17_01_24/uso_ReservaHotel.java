@@ -8,7 +8,7 @@ public class uso_ReservaHotel {
 		ReservasHotel hotel = new ReservasHotel();
 		
 		System.out.println(hotel.dime_habitacion());
-		hotel.dime_habitacion(true);
+		//hotel.dime_habitacion(true);
 			}
 
 }

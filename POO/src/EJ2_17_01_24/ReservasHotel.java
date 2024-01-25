@@ -25,9 +25,9 @@ public class ReservasHotel {
 			this.ocupada=false;
 			System.out.println("esta libre");
 		}
-	public String dime_hotel() { // GETTER
-		return "el tipo de habitacion es " + tipoHabitacion;
-	}
+	//public String dime_hotel() { // GETTER
+		//return "el tipo de habitacion es " + tipoHabitacion;
+	//}
 	
 		
 	}
