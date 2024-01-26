@@ -1,7 +1,8 @@
-package POO;
+package EJ_24_01_24;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
+
 public class uso_empleado {
 
 	public static void main(String[] args) {
@@ -58,5 +59,6 @@ public class uso_empleado {
 		private String nombre;
 		private double sueldo;
 		private Date alta_contrato;
-		
 }
+
+
