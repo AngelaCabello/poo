@@ -1,6 +1,5 @@
 package EJ1_31_01_24;
 
-import javax.swing.JOptionPane;
 
 public class main_instancias {
 

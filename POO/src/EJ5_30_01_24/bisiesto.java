@@ -10,7 +10,7 @@ public class bisiesto {
 		
 		edad.dameAño(Integer.parseInt(JOptionPane.showInputDialog("dime año")));
 		
-		System.out.println(edad.dimeAño());
+		JOptionPane.showMessageDialog(null,edad.dimeAño());
 		
 	
 	}
@@ -31,11 +31,11 @@ class bisi{
 	
 	public String dimeAño() {
 		if(año%bis3==0) {
-			return "El año:"+año+" ,es bisiesto";
+			return "El año "+año+" es bisiesto";
 		}else if((año%bis1==0)&&(año%bis2!=0)){
-			return "El año:"+año+" ,es bisiesto";
+			return "El año "+año+" es bisiesto";
 		}else {
-			return "El año:"+año+" ,no es bisiesto";
+			return "El año "+año+" no es bisiesto";
 		}
 	}
 	public void dameAño(int n) {
